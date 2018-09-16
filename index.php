@@ -8,7 +8,9 @@
     </head>
     <body>
         <div class="container">
-            <h1 class="name">Satya</h1>
+            <header>
+                <h1 class="name">Satya</h1>
+            </header>
             <div class="introContainer">
                 <img class="image" src="./images/satya.png" alt="satya">    
                     <article>
