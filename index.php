@@ -12,7 +12,7 @@
                 <h1 class="name">Satya</h1>
             </header>
             <div class="introContainer">
-                <img class="image" src="./images/satya.png" alt="satya">    
+                <img class="image" src="images/satya.png" alt="satya">    
                 <article>
                     <h2> About me </h2>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla dui non vulputate convallis. 
