@@ -13,15 +13,16 @@
             </header>
             <div class="introContainer">
                 <img class="image" src="./images/satya.png" alt="satya">    
-                    <article>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla dui non vulputate convallis. 
-                        Morbi in faucibus tortor, in aliquet sem. Phasellus at faucibus risus. Aliquam pharetra, est ultrices 
-                        posuere commodo, lectus nunc egestas ante, eget interdum lorem lorem nec nisl. Mauris efficitur luctus 
-                        dolor at efficitur. Suspendisse potenti. Nullam vehicula ut lectus quis laoreet. Nam eu ipsum ac nunc 
-                        varius gravida a vel mauris. Etiam pretium ut nisi eu mollis. Suspendisse ullamcorper cursus facilisis. 
-                        Integer faucibus felis sed ex vehicula, sed tempus nibh accumsan. Integer molestie arcu sed sapien dapibus 
-                        suscipit et eget turpis.
-                    </article>
+                <article>
+                    <h2> About me </h2>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis fringilla dui non vulputate convallis. 
+                    Morbi in faucibus tortor, in aliquet sem. Phasellus at faucibus risus. Aliquam pharetra, est ultrices 
+                    posuere commodo, lectus nunc egestas ante, eget interdum lorem lorem nec nisl. Mauris efficitur luctus 
+                    dolor at efficitur. Suspendisse potenti. Nullam vehicula ut lectus quis laoreet. Nam eu ipsum ac nunc 
+                    varius gravida a vel mauris. Etiam pretium ut nisi eu mollis. Suspendisse ullamcorper cursus facilisis. 
+                    Integer faucibus felis sed ex vehicula, sed tempus nibh accumsan. Integer molestie arcu sed sapien dapibus 
+                    suscipit et eget turpis.
+                </article>
             </div>
             <?php
                 $quotes = [
@@ -33,7 +34,7 @@
                 ];
                 echo "<blockquote>";
                 $randomIndex = array_rand($quotes);
-                echo "<div>" . $quotes[$randomIndex][0] . "</div>";
+                echo "<div class='quote'>" . $quotes[$randomIndex][0] . "</div>";
                 echo "<div class='author'>" . $quotes[$randomIndex][1] . "</div>"; 
                 echo "</blockquote>";
             ?>
