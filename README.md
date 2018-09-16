@@ -4,6 +4,7 @@
 
 ## Outside resources
  - Quotes are retrieved from [here](https://www.goodreads.com/quotes?page=1)
+ - Random text generated from [here](https://www.lipsum.com/feed/html)
 
 ## Notes for instructor
-*any notes for me to refer to while grading; if none, omit this section*
+ - I have some place holder text for About me text.
