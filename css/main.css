@@ -1,0 +1,36 @@
+.container {
+    display: flex; 
+    flex-direction: column;
+}
+
+.introContainer {
+    display: flex; 
+}
+
+blockquote {
+    color: black;
+    background-color: #BDC3C7;
+    font-size: 30px;
+    border-left: 10px #626567;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+blockquote .author {
+    font-style: italic;
+    font-size: 20px;
+}
+
+blockquote .author::before {
+    content: " ~ ";
+    font-size: 20px;
+}
+
+.image {
+    border: 2px solid black;
+    margin-right: 20px;
+}
+
+.name {
+    text-align: center;
+}
